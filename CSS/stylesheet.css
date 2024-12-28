@@ -1,0 +1,106 @@
+.list-main-container{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    align-items: center;
+}
+.profile-pic{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.links{
+    text-decoration: none;
+}
+.hamburger-icon{
+    width:24px;
+    height: 24px;
+}
+.google-article-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.google-picture{
+    width:270px;
+    margin-top:50px;
+}
+.search-container{
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    left:20px;
+    top:16px;
+}
+.search-bar{
+    width: 480px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-left: 50px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color:#5f6368;
+}
+.voice-icon{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 42px;
+    top:14px;
+}
+.lens-icon{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top:12px;
+    right:16px;
+}
+.feeling-lucky-container{
+    display: flex;
+    text-wrap: nowrap;
+    gap:10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.btn-style{
+    border-style: none;
+    height: 36px;
+    border-radius: 3px;
+    box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+}
+.footerli {
+    float: left;
+    list-style-type: none;
+}
+.footerli a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+    color: #5f6368;
+}
+.footerli a:hover {
+    text-decoration: underline;
+}
